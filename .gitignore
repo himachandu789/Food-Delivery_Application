@@ -1,0 +1,6 @@
+# Project exclude paths
+/driver-service/target/
+/food-app/target/
+/merchant-service/target/
+/notification-service/target/
+/utils/target/
