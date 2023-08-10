@@ -2,7 +2,10 @@
 
 Food Delivery Application:
 It’s an app for delivering food like Zomato, Swiggy etc.
+
+
 Step:1
+
 We will try to understand the basic flow of food delivery.
 
 There should be a panel(API) from where the driver will be logging in.
@@ -27,9 +30,13 @@ Driver will have one API when he wants to go online and what will be the area he
 
 Merchant will have an API to upload the restaurant details like the location of the restaurants and name and classification, Opening timings etc. 
 Then he should also get an api to upload dishes and their costs.
+
+
 Step:3
 What will be the order flow?
 Users will come and order something as cash on delivery because we are not going in the payments flow.(OrderService) module will be handling the order and we need to see how this order will be assigned to the driver. And publish some data on kafka. Merchant on which the order has been placed will listen on MerchantService and start preparing. DriverService will listen to it and will start looking for the available drivers. And all the information related to the order will be present in the database of OrderService.
+
+
 
 Step:4
 How will the order flow from order picked up to Order delivered?
